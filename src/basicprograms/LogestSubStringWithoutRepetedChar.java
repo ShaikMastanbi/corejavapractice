@@ -3,7 +3,7 @@ package basicprograms;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LogestSubString {
+public class LogestSubStringWithoutRepetedChar {
     public static void main(String args[]){
         String s="abcabcbc";
         int maxLength=0;

@@ -4,8 +4,8 @@ public class ArraySortingIncreaseOrder {
     public static void main(String args[]){
         int ar[]={22,88,5,99,755};
         for(int i=0;i<ar.length;i++){
-            for(int j=0;j<ar.length;j++){
-                if(ar[i]<ar[j]){
+            for(int j=i+1;j<ar.length;j++){
+                if(ar[i]>ar[j]){
                     int temp=ar[i];
                     ar[i] =ar[j];
                     ar[j]=temp;
